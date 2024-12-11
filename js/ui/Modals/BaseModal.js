@@ -12,7 +12,6 @@ class BaseModal {
    * Открывает всплывающее окно
    */
   open() {
-    this.semanticElement.modal('refresh');
     this.semanticElement.modal('show');
   }
 
