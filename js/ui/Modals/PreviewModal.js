@@ -71,7 +71,7 @@ class PreviewModal extends BaseModal {
   getImageInfo(item) {
     return `
       <div class="image-preview-container">
-        <img src="${item.preview}" />
+        <img src="${item.sizes['6'].url}" />
         <table class="ui celled table">
         <thead>
           <tr><th>Имя</th><th>Создано</th><th>Размер</th></tr>
